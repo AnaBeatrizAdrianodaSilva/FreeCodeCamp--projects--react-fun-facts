@@ -5,12 +5,16 @@
 .content h1 {
   font-size: 39.06px;
   margin-top: 56px;
-  margin-left: 26px;
+  margin-left: 27px;
 }
 
 .list_itens {
-  list-style-image: url(../img/bulletPoint.png);
   margin-top: 46px;
+}
+
+.list_itens > li::marker {
+  color: #61DAFB;
+  font-size: 1.6rem;
 }
 
 .list_itens li {

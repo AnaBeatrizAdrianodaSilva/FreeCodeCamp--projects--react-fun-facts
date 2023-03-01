@@ -1,3 +1,5 @@
+import styles from "./MainContent.modules.css";
+
 export default function MainContent() {
   return (
 
