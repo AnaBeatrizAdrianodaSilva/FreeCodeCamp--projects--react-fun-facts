@@ -1,0 +1,23 @@
+.content {
+  height: 100vh;
+}
+
+.content h1 {
+  font-size: 39.06px;
+  margin-top: 56px;
+  margin-left: 26px;
+}
+
+.list_itens {
+  list-style-image: url(../img/bulletPoint.png);
+  margin-top: 46px;
+}
+
+.list_itens li {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list_itens li:not(:last-child) {
+  margin-bottom: 20px;
+}
